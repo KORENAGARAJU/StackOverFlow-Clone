@@ -34,7 +34,8 @@
 }
 .auth-container-2 form label input{
     padding: 10px;
-    width: calc(100%-30px);
+    width: 92%;
+    border-radius: 5px;
     border: 1px solid #0000003e;
     font-size: 13px;
 }
@@ -52,4 +53,25 @@
     width: 5%;
     margin: 13px 0px;
 }
-
+.auth-btn{
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #009bff;
+    border: solid 1px #009bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: 500;
+}
+.auth-btn:hover{
+    background-color: #018ce3;
+}
+.handler-switch-btn{
+    background-color: transparent;
+    color: #007ac6;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}

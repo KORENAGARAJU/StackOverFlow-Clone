@@ -30,7 +30,7 @@ const Auth = ()=>{
                 <label htmlFor="password">
                     <div style={{display:'flex' , justifyContent : 'space-between'}}>
                         <h4>Password</h4>
-                        {!isSignup && <p style={{color : '#007ac6' , fontSize: '13px'}}>Forgot Password?</p> }
+                        {!isSignup && <p style={{color : '#007ac6' , fontSize: '13px' , cursor:'pointer'}}>Forgot Password?</p> }
                     </div> 
                     <input name="password" type="password" placeholder="Enter Password..." required id="password"/>
                     { isSignup && (<p style={{color : '#666767' , fontSize: '13px'}}>Password must contain at least 8<br/>
