@@ -1,18 +1,18 @@
 import React from "react";
-import './Home.css' ;
-import LeftSideBar from "../../components/LeftSideBar/LeftSideBar"
-import RightSideBar from "../../components/RightSideBar/RightSideBar";
-import HomeMainBar from "../../components/HomeMainBar/HomeMainBar";
+import "../../App.css";
+import LeftSidebar from '../../components/LeftSideBar/LeftSideBar.jsx';
+import RightSidebar from '../../components/RightSideBar/RightSideBar.jsx';
+import HomeMainbar from '../../components/HomeMainBar/HomeMainBar.jsx'
 
-const Home = ()=>{
-    return (
-        <div className='home-container-1'>
-            <LeftSideBar/>
-            <div className="home-container-2">
-                <HomeMainBar/>
-                <RightSideBar/>
-            </div>
-        </div>
-    )
-}
-export default Home ;
+const Home = () => {
+  return (
+    <div className="home-container-1">
+      <LeftSidebar/>
+      <div className="home-container-2">
+        <HomeMainbar />
+        <RightSidebar />
+      </div>
+    </div>
+  );
+};
+export default Home;
